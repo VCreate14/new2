@@ -4,7 +4,7 @@ from phi.model.groq import Groq
 from phi.tools.duckduckgo import DuckDuckGo
 
 agent = Agent(
-    model=Groq(id="llama-3.3-70b-versatile", api_key= os.environ.get("GROQ_API_KEY") ),
+    model=Groq(id="llama-3.3-70b-versatile", api_key= "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" ),
     tools=[DuckDuckGo()],
     show_tool_calls=True,
     markdown=True
